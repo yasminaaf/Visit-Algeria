@@ -1,0 +1,171 @@
+@font-face {
+    font-family: roboto;
+    src: url(fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Solitreo;
+    src: url(fonts/Solitreo-Regular.ttf);
+}
+body{
+ 
+  margin: 5px;
+  font-family: roboto;
+  text-align: center;
+  background: #B8E9F5;
+}
+#header{
+    padding: 50px 0px 0px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-items: flex-start;
+    width: auto;
+    height: 400px;
+    background-image: url("images/6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    margin-bottom: -77px;
+    border-radius: 10px;
+}
+
+
+.title {
+    
+    font-size:xx-large;
+    padding: 5px;
+    color:#15c57c;
+    text-shadow: 1px 1px px rgb(245, 32, 17);
+    background-color: #12212bee;
+    border-radius: 20px;
+    
+}
+
+.flag{
+   
+    width: 70px;
+    margin-top: 25px;
+  
+}
+.title-2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    color: #04080F;;
+    text-shadow: 1px 1px 2px #1CA3C4; 
+    border-top: 2px solid #065689;
+    border-bottom: 2px solid #065689;
+    background-color: #B8E9F5;
+    padding: 10px 0px;
+
+}
+
+#places-section{
+    background: linear-gradient( #002A52, #B8E9F5);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 200px 10px;
+    margin-bottom: -300px;
+   
+} 
+
+
+  
+.cos-title, .tle-title, .tagh-title{
+    
+    color: #B7E9F5;
+    text-shadow: 3px -2px 2px black;
+    background-color: #0074E0;
+    display:inline;
+    padding: 4px 10px;
+    border-radius: 20px;
+
+}
+
+.cos-title:hover{
+    
+    background-color: #001529;
+
+}
+.tle-title:hover{
+    
+    background-color: #001529;
+
+}
+.tagh-title:hover{
+    
+    background-color: #001529;
+
+}
+.cos-img, .tagh-img, .tle-img{
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #326ba1;
+    margin-top: 20px;
+    
+}
+.tle-img{
+   
+    margin-bottom: 10px;
+}
+.tle-img:hover{
+    width: 400px;
+    border-radius: 20px;
+  
+    
+}
+.cos-img:hover{
+    width: 400px;
+    border-radius: 20px;
+}
+.tagh-img:hover{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.content{
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black ;
+    text-align: center;
+    padding: 20px;
+    margin:20px 10px;
+    
+}
+p{
+    color: #001529;
+    text-shadow: 0px 0px 0px black;
+    text-align: left;
+    padding: 10px;
+    
+}
+
+.my-photo{
+    
+    width: 150px;
+    height: 250px;
+    background-image: url("images/my-photo.jpg");
+    background-size: cover;
+    border: 2px solid #e937da59;
+    border-radius: 15px;
+
+}
+.my-photo:hover{
+   background-image: url("images/fb.gif");
+   background-position: center;
+   
+
+}
+.guide-card{
+
+    width: 450px;
+    display: flex;
+    margin: 300px auto;
+    padding: 10px;
+    background-color: #2cc4ebab;
+    border-radius: 20px;
+    border-bottom: 6px solid #e937da85;
+    font-family:Solitreo; 
+    font-size: large;
+    color: #00407c;
+
+}
